@@ -1,0 +1,16 @@
+
+.btn-disabled{
+background-color: grey;
+
+}
+
+.alert{
+    border: 1px solid red !important;
+    }
+.text-danger{
+    color: red;
+}
+
+.text-success{
+    color:green;
+}
