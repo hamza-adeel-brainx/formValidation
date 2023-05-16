@@ -14,3 +14,18 @@ background-color: grey;
 .text-success{
     color:green;
 }
+.container{
+    width: 20%;
+    margin: auto;
+    padding: 20px;
+    background: rgb(241, 238, 238) none repeat scroll 0% 0%;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    margin-top: 100px;
+
+   
+    
+}
+#signup-btn{
+    width: 50%;
+}
