@@ -15,7 +15,7 @@ background-color: grey;
     color:green;
 }
 .container{
-    width: 20%;
+    width: 25% !important;
     margin: auto;
     padding: 20px;
     background: rgb(241, 238, 238) none repeat scroll 0% 0%;
@@ -26,6 +26,31 @@ background-color: grey;
    
     
 }
+input{
+width: 100%;
+}
+
 #signup-btn{
     width: 50%;
+    margin-left: 100px;
+}
+.sign-up-alert{
+    display: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgba(255, 127, 127, 0.514);
+    border: 0px solid;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    width: 50%;
+    font-weight: 300;
+    text-align: center;
+}
+.sign-up-alert-display{
+    display: block;
 }

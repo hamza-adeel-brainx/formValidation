@@ -12,42 +12,49 @@
     
     <div class="container">
     <form  id="form1">
-        <label for="fname">FirstName</label>
-        <input type="text" id="fname" name="fname" required/>
+        <sub for="fname">FirstName</sub>
+        <br>
+        <input type="text" id="fname" name="fname" />
         <br><b><sub class="text-danger" id="txt-fname"></sub></b>
         <br>
         <br>
-        <label for="lname">LastName</label>
-        <input type="text" id="lname" name="lname" required/>
+        <sub for="lname">LastName</sub>
+        <br>
+        <input type="text" id="lname" name="lname" />
         <br>
         <b><sub class="text-danger" id="txt-lname"></sub></b>
         <br>
         <br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" class=" "  placeholder="user@example.com"/>
+        <sub for="email">Email</sub>
+        <br>
+        <input type="text" id="email" name="email" class=" "  placeholder="user@example.com"/>
         <br>
         <b><sub class="text-danger" id="txt-email"></sub></b>
         <br>
         <br>
-        <label for="age">Age</label>
+        <sub for="age">Age</sub>
+        <br>
         <input type="text" id="age" class="" name="age"/>
         <br>
         <b><sub class="text-danger" id="txt-age"></sub></b>
         <br>
         <br>
-        <label for="contact">contact</label>
+        <sub for="contact">contact</sub>
+        <br>
         <input type="tel" id="contact" name="contact" />
         <br>
         <b><sub class="text-danger" id="txt-contact"></sub></b>
         <br>
         <br>
-        <label for="password">Password</label>
+        <sub for="password">Password</sub>
+        <br>
         <input type="password" id="password" name="password" />
         <br>
         <b><sub class="text-danger" id="txt-password"></sub></b>
         <br>
         <br>
-        <label for="confirm-password">Confirm Password</label>
+        <sub for="confirm-password">Confirm Password</sub>
+        <br>
         <input type="password" id="confirm-password" name="confirm-password" />
         <br>
         <b><sub class="text-danger" id="txt-matchpassword"></sub></b>
@@ -56,6 +63,7 @@
       
     </form>
     <button type="submit" form="form1" id="signup-btn"  class="btn-disabled" value="Submit" >Sign up</button>
+    <div class="sign-up-alert"> </div>
 </div>
     <script src="validation.js"></script>
 </body>
